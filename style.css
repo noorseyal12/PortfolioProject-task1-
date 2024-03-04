@@ -6,7 +6,7 @@
   padding-top: 12px;
 }
 
-.header_left {
+.header-left {
   font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -17,14 +17,14 @@
   margin-left: 14px;
 }
 
-.header_right {
+.header-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 3px;
 }
 
-.header_section {
+.header-section {
   background-image: url('./assets/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@
   max-width: 320px;
 }
 
-.lets_connect {
+.lets-connect {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 500;
