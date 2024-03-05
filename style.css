@@ -13,7 +13,7 @@
   line-height: 20px;
   letter-spacing: 0;
   text-align: left;
-  color: rgba(96, 112, 255, 1);
+  color: #6070FF;
   margin-left: 14px;
 }
 
@@ -47,7 +47,7 @@
   letter-spacing: 0;
   word-spacing: 20%;
   text-align: left;
-  color: rgba(23, 43, 77, 1);
+  color: #172B4D;
   padding-top: 10%;
   margin-left: 2%;
   width: 250px;
@@ -60,7 +60,7 @@
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: rgba(23, 43, 77, 1);
+  color: #172B4D;
   margin-left: 2%;
   max-width: 320px;
 }
@@ -72,7 +72,7 @@
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: rgba(96, 112, 255, 1);
+  color: #6070FF;
   margin-left: 2%;
 }
 
