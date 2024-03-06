@@ -81,3 +81,18 @@
 }
 
 
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(5, auto); /* 5 rows */
+  grid-template-columns: 1fr; /* 1 column */
+  gap: 10px; /* gap between grid items */
+  /* additional styling for visualization */
+  border: 2px solid #333;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
