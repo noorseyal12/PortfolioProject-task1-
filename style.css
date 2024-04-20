@@ -477,6 +477,10 @@ color: #344563;
   border-radius: 8px;
   margin-bottom: 10px;
   padding: 10px;
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+  
 }
 
 .lang p {
@@ -559,12 +563,13 @@ color: #344563;
     margin-top: 10px;
     padding: 10px;
     padding-top: 70px;
+    padding-left: 2px;
   }
   
   .description2 {
     font-size: 20px;
     line-height: 24px;
-    padding-left: 40px;
+    padding-left: 350px;
     height: auto;
     padding-bottom: 10px;
     font-weight: 400;
@@ -574,6 +579,20 @@ color: #344563;
 
 
 
+  }
+  .form_group{
+    width:50%;
+    align-items: center;
+    justify-items: center;
+    margin-left: 25%;
+    border-radius: 20px;
+    
+  }
+
+  .getintouch_btn{
+    align-items: center;
+    justify-items: center;
+    margin-left: 25%;
   }
   .line{
     font-size: 16px;
@@ -658,5 +677,262 @@ color: #344563;
   .framework-text .arrow {
     margin-left: auto; /* Push arrow to the right */
   }
+  .nav-items{
+    display:none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .cards{
+      width: 100%;
+    }
+    .griditem1,
+    .griditem2,
+    .griditem3,
+    .griditem4 {
+      width: 1156px;
+      height: 496px;
+      border: 1px solid #DFE1E6;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 16px 5% 88px 5%;
+      background-color: white;
+      padding: 5%;
+      gap: 0px;
+      border-radius: 1px 0px 0px 0px;
+      border: 2px 0px 0px 0px;
+      opacity: 0px;
+      margin-top: 100px;
+    }
+  
+    /* Adjust text elements within grid items */
+    .griditem1 .Main-title,
+    .griditem2 .Main-title,
+    .griditem3 .Main-title,
+    .griditem4 .Main-title {
+      width: 100%; /* Adjust width of main title to fit within grid item */
+    }
+    
+    .griditem1 .paragraph,
+    .griditem2 .paragraph,
+    .griditem3 .paragraph,
+    .griditem4 .paragraph {
+      width: 100%; /* Adjust width of paragraph to fit within grid item */
+    }
+  
+    .griditem1 .image,
+    .griditem2 .image,
+    .griditem3 .image,
+    .griditem4 .image {
+      width: 544px;
+      height: 448px;
+      border-radius: 16px; /* Rounded corners */
+      margin-bottom: 20px; /* Adjust margin as needed */
+    }
+  
+    .griditem1 .image img,
+    .griditem2 .image img,
+    .griditem3 .image img,
+    .griditem4 .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensure the image covers the container */
+      border-radius: 16px; /* Rounded corners */
+    }
+  .Main-title{
+    margin-bottom: 20px;
+  }
+  
+    /* Additional styles as needed */
+    .content {
+      margin-left: 50px;
+      padding: 55px;
+    }
+     
+    .griditem1, .griditem3 {
+      display: flex;
+      flex-direction: row; /* Arrange items horizontally */
+    }
+  
+    .griditem1 .image, .griditem3 .image {
+      flex: 1; /* Make the image take up available space */
+    }
+  
+ 
+    .griditem1 .content,
+    .griditem3 .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Align content to the start of the flex container */
+      justify-content: center;
+      flex: 1; /* Make the content take up available space */
+      padding: 0 20px; /* Add padding to the content for spacing */
+    }
+  
+    .griditem2,
+    .griditem4 {
+      flex-direction: row-reverse; /* Reverse flex direction to have image on right */
+      align-items: center;
+    }
+  
+    .griditem2 .image,
+    .griditem4 .image {
+      margin-left: 20px; /* Adjust margin to create space between image and content */
+    }
+  
+    .griditem2 .content,
+    .griditem4 .content {
+      margin-right: 20px; /* Adjust margin to create space between image and content */
+    }
+    .work{
+      height: 450vh;
+    }
+  
+  .first-screen {
+   
+      padding: 20px; 
+      /* max-width: 100%; */
+      width: 1000px;;
+     /* height: 846px; */
+     margin-top: 71px;
+     /* padding: 289px 260px 289px 260px; */
+     gap: 0px;
+     background-color: white;
+    
+
+  }
+  .logo{
+    display: none;
+    
+
+  }
+
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  list-style: none;
+  margin-right: 70px;
+  position: absolute;
+
+ 
+}
+.nav-items a { /* Adding this to target anchor tags specifically */
+  text-decoration: none; /* Removes the underline */
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  list-style: none;
+  color: inherit; /* Optional: to maintain the text color of the parent element */
+}
+
+.menu-item{
+  text-decoration: none;
+  
+ 
+}
+.icon {
+  display: none; /* Hide icon */
+}
+
+.header {
+  width: 1000px; /* Width changes to fixed value at this breakpoint */
+ 
+}
 
 
+.header-section {
+  width: 1000px; /* Fixed width at this breakpoint */
+  margin-top: 71px; /* Spacing from the top if required */
+}
+
+.title {
+  width: 920px;
+  height: 122px;
+}
+
+
+.paragraph{
+  width: 920px;
+  height: 98px;
+  margin-bottom: 50px;
+
+}
+.lets-connect{
+  margin-top: 5px;
+}
+
+
+  .Myself { /* Adjust if needed to align the section horizontally */
+    width: 60%;
+    height: 700px;
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 100px;
+  
+    
+
+  }
+ .left-half{
+display: flex;
+flex-direction: column;
+
+
+
+ }
+ .right-half{
+display: flex;
+flex-direction: column;
+width: 40%;
+
+
+ }
+ .lang_container{
+  display: flex;
+  flex-direction: row;
+ }
+ .skill-text{
+  width:100%
+
+ }
+ .framework-text{
+  width:100%
+
+ }
+ .lang{
+  display: flex;
+  flex-direction: column;
+ }
+.contact_part{
+  width: 70%;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+.form{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* When the viewport width is less than 1000px */
+
+  .icon {
+    display: block; /* Show icon */
+  }
+
+  .nav-items {
+    display: none; /* Hide navigation items */
+  }
+
+}
